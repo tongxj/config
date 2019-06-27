@@ -26,7 +26,8 @@ public class ItemServiceFallback implements FallbackProvider {
 	}
 
     //该方法返回封装降级响应的对象
-    //ClientHttpResponse中封装降级响应
+    //ClientHttpResponse中封装降级响应8 
+	//何曾不是你的双手步步推着我走
 	@Override
 	public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
         return response();
